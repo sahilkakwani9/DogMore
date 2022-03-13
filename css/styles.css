@@ -44,7 +44,7 @@ a {
     right: 30%;
 }
 
-@media (max-width:1000px) {
+@media only screen and (max-width: 700px) {
     .title-img {
         position: static;
         /* transform: rotate(-24deg); */
@@ -57,6 +57,11 @@ a {
     
     .landing {
         margin-left: -10%;
+        /* padding: 80% 0; */
+    }
+
+    .colored-section {
+        max-height: 100vh;
     }
 
     .navbar-dark {
