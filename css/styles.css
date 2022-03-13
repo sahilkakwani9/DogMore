@@ -44,7 +44,7 @@ a {
     right: 30%;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
     .title-img {
         position: static;
         /* transform: rotate(-24deg); */
